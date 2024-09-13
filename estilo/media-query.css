@@ -6,3 +6,88 @@
    lilas: #5f2c82
 */
 
+@media screen and (min-width:768px) and (max-width:992px){
+   body, html {
+      background-image: linear-gradient(to top, #49a09d, #5f2c82);
+   }
+
+   .login {
+      width: 90vw;
+   }
+
+   section.login > div.img {
+      width: 30%;
+      height: 100%;
+      float: left;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 20px;
+   }
+
+   .formulario {
+      float: right;
+      width: 70%;
+      margin: 20px 0px;
+   }
+
+   .formulario p {
+      font-size: 1.1em;
+      text-align: justify;
+      text-indent: 20px;
+   }
+
+   form > div.campo {
+      margin: 20px 0px;
+   }
+
+   form > .links > a {
+      font-size: 0.9em;
+      padding: 5px;
+   }
+
+}
+
+@media screen and (min-width:993px) {
+   body, html {
+      background-image: linear-gradient(to top, #49a09d, #5f2c82);
+   }
+
+   .login {
+      width: 90vw;
+   }
+
+   section.login > div.img {
+      width: 30%;
+      height: 100%;
+      float: right;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 0px;
+   }
+
+   .formulario {
+      float: left;
+      width: 70%;
+      margin: 20px 0px;
+   }
+
+   .formulario h2 {
+      font-size: 2.5em;
+   }
+
+   .formulario p {
+      font-size: 1.1em;
+      text-align: justify;
+      text-indent: 20px;
+   }
+
+   form > div.campo {
+      margin: 20px 0px;
+   }
+
+   form > .links > a {
+      font-size: 0.9em;
+      padding: 5px;
+   }
+}
