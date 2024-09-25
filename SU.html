@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/49beea7346.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo/cadastro.css">
+</head>
+<body>
+    <main class="conteudo">
+        <section class="cadastro">
+            <div class="formulario">
+                <h2>Cadastro</h2>
+                <p>Preencha os campos para efetuar seu cadastro e poder desfrutar dos mecanismos do seu ambiente!</p>
+                <form action="cadastro.php">
+                    <div class="campo">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label for="name"></label>
+                    </div>
+                    <div class="campo">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <label for="email"></label>
+                    </div>
+                    <div class="campo">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <label for="password"></label>
+                    </div>
+                    <div class="campo">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="cpass" id="cpass" placeholder="Confirm Your Password">
+                        <label for="cpass"></label>
+                    </div>
+                    <button>Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
